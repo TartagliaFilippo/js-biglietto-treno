@@ -55,3 +55,12 @@ if (passengerAgeParse < 18) {
 // PRICE IN SIGHT
 document.getElementById("PriceInSight").innerHTML =
   "Il prezzo del tuo biglietto è: € " + finalPrice.toFixed(2);
+
+//WORKING PROGRESS
+// let standardPrice = price * tripLength;
+// document.getElementById("StandardPrice").innerHTML =
+//   "Il prezzo del tuo biglietto era: € " + standardPrice.toFixed(2);
+
+// let realPrice = price * tripLength - discountPriceO65 * tripLength || price * tripLength - discountPriceU18 * tripLength;
+// document.getElementById("RealPrice").innerHTML =
+//   "Il prezzo del tuo biglietto è: € " + realPrice.toFixed(2);
