@@ -5,6 +5,18 @@ console.log("lunghezza viaggio: " + tripLength);
 const passengerAge = prompt("quanti anni hai?");
 console.log("età passeggero: " + passengerAge);
 
+// CHECK INFORMATIONS
+// let tripLengthCheck = parseInt(tripLength);
+// let passengerAgeCheck = parseInt(passengerAge);
+
+// if (tripLengthCheck && passengerAgeCheck !== Number) {
+//   alert(
+//     "perfavore ricarica la pagina e completa le informazioni con dei valori numerici"
+//   );
+// } else {
+//   alert("i dati inseriti sono corretti");
+// }
+
 // FIXED PRICE
 let price = 0.21;
 
@@ -39,3 +51,7 @@ if (passengerAgeParse < 18) {
   finalPrice = price * tripLength;
   console.log("prezzo finale " + finalPrice);
 }
+
+// PRICE IN SIGHT
+document.getElementById("PriceInSight").innerHTML =
+  "Il prezzo del tuo biglietto è: € " + finalPrice;
