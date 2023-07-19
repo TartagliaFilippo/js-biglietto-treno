@@ -54,4 +54,4 @@ if (passengerAgeParse < 18) {
 
 // PRICE IN SIGHT
 document.getElementById("PriceInSight").innerHTML =
-  "Il prezzo del tuo biglietto è: € " + finalPrice;
+  "Il prezzo del tuo biglietto è: € " + finalPrice.toFixed(2);
